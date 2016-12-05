@@ -1,0 +1,13 @@
+<?php
+
+  function simple_contact_form_alter(&$form, &$form_state, $form_id) {
+    if($form_id == 'contact_site_form') {
+      $form['subject']['#access'] = 0; //#access hides it when False (from API reference)
+      $form['copy']['#access'] = 0;
+      $form['copy']['#value'] = 1;
+      $form['subject']['#value'] = t('Feedback'); // #value is hard-coded and users cant override. #default_value can be overridden
+      // print '<pre>';
+      // print_r ($form['copy']);
+      // print '</pre>';
+    }
+  }

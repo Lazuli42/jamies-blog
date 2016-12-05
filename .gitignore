@@ -19,7 +19,7 @@
 *.rar
 *.tar
 *.zip
-*.tgz
+*llk.tgz
 
 # Logs and databases #
 ######################
