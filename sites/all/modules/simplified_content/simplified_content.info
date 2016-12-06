@@ -1,0 +1,5 @@
+name = Simplified content
+description = Simplifies the New Content Type Interface for non-developers.
+core = 7.x
+package = Custom Modules
+files[] = simplified_content.module

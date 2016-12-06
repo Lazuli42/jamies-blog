@@ -1,0 +1,12 @@
+<?php
+
+  function simplified_content_form_alter (&$form, &$form_state, $form_id) {
+    if ($form_id == 'node_type_form') {
+      // print '<pre>';
+      // print_r($form);
+      // print '</pre>';
+      // exit;
+      $form['comment']['comment']['#default_value'] = 1;
+      $form['menu'] = null; // equivalent to #access = 0
+    }
+  }

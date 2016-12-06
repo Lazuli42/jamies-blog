@@ -1,0 +1,6 @@
+name = More Social
+description = Adds more websites to the social buttons.
+core = 7.x
+package = Custom Modules
+files[] = more_social.module
+stylesheets[all][] = more_social.css

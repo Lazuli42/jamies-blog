@@ -1,0 +1,24 @@
+<?php
+
+  function more_social_follow_networks_alter(&$networks, $uid = 0) {
+    // print '<pre>';
+    // print_r($networks);
+    // print '</pre>';
+    // exit;
+    $networks[$uid]['imdb'] = array(
+      'title' => t('IMDB'),
+      'domain' => 'imdb.com',
+    );
+    $networks[$uid]['drupal'] = array(
+      'title' => t('drupal'),
+      'domain' => 'drupal.org',
+    );
+    $networks[$uid]['etsy'] = array(
+      'title' => t('etsy'),
+      'domain' => 'etsy.com',
+    );
+    $networks[$uid]['redbubble'] = array(
+      'title' => t('redbubble'),
+      'domain' => 'redbubble.com',
+    );
+  }
