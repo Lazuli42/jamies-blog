@@ -3,3 +3,6 @@ description = Extends the Contact Form to customize it.
 package = Custom Modules
 core = 7.x
 files[] = simple_contact.module
+files[] = simple_contact.test
+dependencies[] = simpletest
+dependencies[] = contact

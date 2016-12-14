@@ -245,13 +245,13 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
       'database' => 'jamies-blog',
-      'username' => 'admin',
-      'password' => 'PASSWORD',
+      'username' => 'jamie',
+      'password' => 'jamie',
       'host' => '127.0.0.1',
       'port' => '8889',
       'driver' => 'mysql',
